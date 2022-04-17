@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html >
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" >
+<head >
+<meta charset="utf-8" / >
+<title > </title >
+</head >
+<body >
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=EB+Garamond:ital,wght@1,600&display=swap');
+
+header, footer {
+    background: linear-gradient(to top, #33ccff 0%, #00008b 110%);
+    padding: 10px;
+    height: 100px;
+}
+main{
+  padding:10px;
+  background:linear-gradient(to bottom, #33ccff 0%,  #4b0082 110%);
+  display:block;
+
+}
+.post{
+  background:white;
+  padding:10px;
+  border-radius:20px;
+  margin-bottom:10px;
+  display:flex;
+}
+.post img{
+  margin:20px; 
+}
+h3 {
+    color: red;
+    font-family: 'Caveat', cursive;
+}
+h2 {
+    color: blue;
+    font-family: 'Caveat', cursive;
+}
+.tem {
+    color: cyan;
+    font-family: 'EB Garamond', serif;
+}
+.term {
+    color: gold;
+    font-family: 'EB Garamond', serif;
+}
+.terme {
+    color: #CCCCFF;
+    font-family: 'EB Garamond', serif;
+}
+.termit {
+    color: #40E0D0;
+    font-family: 'EB Garamond', serif;
+}
+#menu{
+  position:relative;
+  display:block;
+  width:100%;
+  height:auto;
+}
+ul{
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:auto;
+  list-style: none;
+}
+li {
+  position: realative;
+  display:block;
+  float:left;
+  width:auto;
+  height:auto;
+}
+a{
+  padding:10px;
+  display:block;
+  font-size:14pt;
+  font-weight:bold;
+  text-decoration:none;
+  color:white;
+  text-transform:uppercase;
+  box-sizing:border-box;
+  background-color:red;
+  border: 2px solid rosybrown;
+  
+}
+a:hover{
+  background-color:blue;
+  border-radius:15px 0;
+  color:yellow;
+  border:2px dotted green;
+}
+
+
+</body>
+</html>

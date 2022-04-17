@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+header, footer{
+  background: linear-gradient(to left, #33ccff 0%, red 110%);
+ padding:10px;
+  
+ 
+  height:100px;
+}
+#menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+
+li {
+    position: realative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+a {
+    padding: 10px;
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    background-color: red;
+    border: 2px solid rosybrown;
+}
+
+    a:hover {
+        background-color: blue;
+        border-radius: 15px 0;
+        color: yellow;
+        border: 2px dotted green;
+    }
+main{
+  padding:10px;
+  background-color:silver;
+}
+.post{
+  background-color:white;
+  padding:10px;
+  border-radius:20px;
+  margin-bottom:10px;
+  display:flex;
+}
+.post img{
+  margin:20px; 
+}
+h3{
+  color:red;
+  
+}h2{
+  color:blue;
+  
+}
+.tem{
+  color:cyan;
+}
+.term{
+  color:gold;
+}
+.terme{
+  color:#CCCCFF;
+}
+.termit{
+  color:#40E0D0;
+}
+
+</body>
+</html>
